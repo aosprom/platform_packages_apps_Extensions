@@ -42,4 +42,9 @@
             android:icon="@drawable/ic_misc_extensions"
             android:title="@string/misc_extensions_title" />
 
+        <Preference
+             android:key="wakelock_blocker"
+             android:fragment="org.aospextended.extensions.WakeLockBlocker"
+             android:title="@string/wakelock_blocker_title" />
+
 </PreferenceScreen>
