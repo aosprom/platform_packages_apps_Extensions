@@ -21,5 +21,5 @@
     <!-- shake clean recent -->
     <string name="shake_clean_recent">Clean by shake</string>
     <string name="shake_clean_recent_summary">Clean recent task by shake</string>
-
+    <string name="shake_clean_notification">Notification bar notification shaking cleaning</string>
 </resources>

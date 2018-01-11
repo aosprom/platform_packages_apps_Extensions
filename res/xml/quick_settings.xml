@@ -20,6 +20,11 @@
         android:key="quick_settings_general_category"
         android:title="@string/general_category">
 
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+	    android:key="shake_clean_notification"
+	    android:title="@string/shake_clean_notification"
+	    android:defaultValue="true" />
+
         <org.aospextended.extensions.preference.SecureSettingSwitchPreference
         android:key="qs_show_brightness"
         android:title="@string/qs_brightness_slider_title"

@@ -16,4 +16,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="shake_clean_recent">晃动清理最近任务</string>
   <string name="shake_clean_recent_summary">最近任务界面通过晃动清理</string>
+  <string name="shake_clean_notification">通知栏通知晃动清理</string>
 </resources>
