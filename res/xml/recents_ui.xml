@@ -45,6 +45,12 @@
         android:defaultValue="3"
         android:dependency="show_clear_all_recents" />
 
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="shake_clean_recent"
+        android:title="@string/shake_clean_recent"
+        android:summary="@string/shake_clean_recent_summary"
+        android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
