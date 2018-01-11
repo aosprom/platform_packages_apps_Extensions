@@ -424,7 +424,7 @@
     <string name="fling_longpress_timeout_label_left">减少延迟</string>
     <string name="fling_longpress_timeout_label_right">更多延迟</string>
     <string name="fling_longpress_title">长按延迟</string>
-    <string name="fling_longpress_summary">增加或减少执行长按</string>的时间
+    <string name="fling_longpress_summary">增加或减少执行长按</string>
     <string name="fling_keyboard_cursors_title">动态键盘游标操作</string>
     <string name="fling_keyboard_cursors_summary">如果键盘打开，则双击左侧和右侧操作会成为左侧和右侧键盘光标操作</string>
     <string name="fling_logo_opacity_title">Fling logo透明度</string>
