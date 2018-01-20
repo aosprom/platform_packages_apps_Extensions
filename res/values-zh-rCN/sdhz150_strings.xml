@@ -33,12 +33,4 @@
   <string name="status_bar_date_string_edittext_summary">请输入字符串</string>
   <string name="menu_save">保存</string>
   <string name="menu_cancel">取消</string>
-    <!-- Wakelock blocker -->
-    <string name="wakelock_blocker_title">唤醒锁定阻止运行</string>
-    <string name="wakelock_blocker_summary">阻止系统唤醒</string>
-    <string name="wakelock_blocker_save">保存</string>
-    <string name="wakelock_list_header">可用唤醒锁</string>
-    <string name="wakelock_blocker_reload">刷新</string>
-    <string name="wakelock_blocker_warning_title">谨慎行事</string>
-    <string name="wakelock_blocker_warning">阻止唤醒锁可能导致不稳定，崩溃或数据丢失</string>
 </resources>
