@@ -17,33 +17,6 @@
     android:title="@string/misc_extensions_title">
 
     <PreferenceCategory
-        android:key="statusbar_date_title"
-        android:title="@string/status_bar_date_title">
-
-         <ListPreference
-             android:key="status_bar_date"
-             android:title="@string/status_bar_date_title"
-             android:summary="@string/status_bar_date_title"
-             android:entries="@array/status_bar_date_entries"
-             android:entryValues="@array/status_bar_date_values" />
-
-         <ListPreference
-             android:key="status_bar_date_style"
-             android:title="@string/status_bar_date_style"
-             android:summary="@string/status_bar_date_style"
-             android:entries="@array/status_bar_date_style_entries"
-             android:entryValues="@array/status_bar_date_style_values" />
-
-         <ListPreference
-             android:key="status_bar_date_format"
-             android:title="@string/status_bar_date_format_title"
-             android:summary="@string/status_bar_date_format_title"
-             android:entries="@array/status_bar_date_format_entries_values"
-             android:entryValues="@array/status_bar_date_format_entries_values" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
         android:key="misc_extensions_icons_category"
         android:title="@string/icons_category">
 
@@ -53,13 +26,11 @@
              android:summary="@string/roaming_indicator_icon_summary"
              android:defaultValue="true"/>
 
-
          <org.aospextended.extensions.preference.SystemSettingSwitchPreference
              android:key="show_fourg_icon"
              android:title="@string/show_fourg_icon_title"
              android:summary="@string/show_fourg_icon_summary"
              android:defaultValue="false"/>
-
 
     </PreferenceCategory>
 
