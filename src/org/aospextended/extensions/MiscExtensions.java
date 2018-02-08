@@ -71,6 +71,6 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
-
+        return false;
     }
 }
