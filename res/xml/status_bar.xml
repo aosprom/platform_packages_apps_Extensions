@@ -32,7 +32,7 @@
 
          <Preference
             android:key="status_bar_clock"
-            android:fragment="org.aospextended.extensions.StatusBarClockSettings"
+            android:fragment="org.aospextended.extensions.ClockDateSettings"
             android:icon="@drawable/ic_statusbarclock"
             android:title="@string/status_bar_clock_title" />
 
