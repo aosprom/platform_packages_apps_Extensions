@@ -28,6 +28,12 @@
             android:title="@string/general_tweaks_title" />
 
          <Preference
+            android:key="weather"
+            android:fragment="org.aospextended.extensions.Weather"
+            android:icon="@drawable/ic_weather"
+            android:title="@string/weather_title" />
+
+         <Preference
             android:key="buttons"
             android:fragment="org.aospextended.extensions.Buttons"
             android:icon="@drawable/ic_buttons"
@@ -38,5 +44,12 @@
             android:fragment="com.android.settings.applications.AppOpsSummary"
             android:icon="@drawable/ic_settings_appops"
             android:title="@string/app_ops_category" />
+
+         <PreferenceScreen
+            android:key="systemappremover"
+            android:fragment="org.aospextended.extensions.SystemappRemover"
+            android:icon="@drawable/ic_systemappremover"
+            android:title="@string/system_app_remover" />
+
 
 </PreferenceScreen>

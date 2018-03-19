@@ -232,6 +232,9 @@
   <string name="hide_lockscreen_clock_title">Віджэт гадзінніка</string>
   <string name="hide_lockscreen_clock_summary">Змяніць бачнасць віджэта гадзінніка</string>
   <string name="hide_lockscreen_date_title">Віджэт даты</string>
+  <string name="hide_lockscreen_date_summary">Змяніць бачнасць даты пад віджэтам гадзінніка</string>
+  <string name="hide_lockscreen_alarm_title">Тэкст будзільніка</string>
+  <string name="hide_lockscreen_alarm_summary">Змяніць бачнасць тэкста будзільніка пад віджэтам гадзінніка</string>
   <!-- Heads up -->
   <string name="headsup_category">Налады ўсплывальных апавяшчэнняў</string>
   <string name="heads_up_notifications">Усплывальныя апавяшчэнні</string>
@@ -408,6 +411,7 @@
   <string name="pulse_accent_color_title">Выкарыстоўваць каляровы акцэнт для імпульсу</string>
   <string name="pulse_accent_color_summary">Пры ўключэнні гэтай опцыі Pulse будзе выкарыстоўваць ваш бягучы колер. \"Lava Lamp\" адключыцца</string>
   <string name="fling_pulse_color">Колер Pulse</string>
+  <string name="fling_pulse_color_summary">Таксама выкарыстоўваецца як рэзервовы для аўтаматычнага падбору колеру</string>
   <string name="eos_fling_lavalamp_title">Уключыць Lava Lamp</string>
   <string name="eos_fling_lavalamp_summary">Выпадковыя колеры ў стылі Lava Lamp</string>
   <string name="pulse_advanced_category">Дадаткова</string>
@@ -419,6 +423,8 @@
   <string name="pulse_solid_units_opacity">Празрыстасць суцэльных ліній</string>
   <string name="pulse_solid_dimen_category">Налады рэжыму суцэльных ліній</string>
   <string name="pulse_custom_buttons_opacity_title">Празрыстасць Разумнай панэлі ў рэжыме Pulse</string>
+  <string name="pulse_auto_color_title">Аўтаматычны колер Pulse</string>
+  <string name="pulse_auto_color_summary">Усталяваць колер у адпаведнасці з колерам вокладкі альбома. Перавызначаем Lava Lamp і непразрыстасць ліній.</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Шырыня панэлі</string>
   <string name="pulse_custom_div">Адлегласць паміж панэлямі</string>
@@ -524,8 +530,117 @@
   <string name="force_ambient_for_media_on_forced">Нармальны (прымусова)</string>
   <string name="force_ambient_for_media_on_forced_clean">Мінімальны (прымусова)</string>
   <!-- Carrier Label -->
+  <string name="carrier_options">Выбраць месца адлюстравання</string>
+  <string name="custom_carrier_label_title">Уласнае iмя аператара</string>
+  <string name="custom_carrier_label_explain">Увядзіце сваю назву. Пакіньце пустым, каб выкарыстоўваць бягучае імя сеткі</string>
+  <string name="custom_carrier_label_notset">Імя аператара ў дадзены момант не ўсталявана</string>
+  <string name="show_carrier_title">Імя аператара</string>
+  <string name="show_carrier_disabled">Адключана</string>
+  <string name="show_carrier_keyguard">Экран блакавання</string>
+  <string name="show_carrier_statusbar">Радок стану</string>
+  <string name="show_carrier_enabled">Абодва</string>
   <!-- Screen Off animation -->
+  <string name="screen_off_animation_title">Анімацыя выключэння экрана</string>
+  <string name="screen_off_animation_default">Па змаўчанні</string>
+  <string name="screen_off_animation_crt">CRT</string>
+  <string name="screen_off_animation_scale">Маштаб</string>
   <!-- Suppress notification sound/vibration -->
+  <string name="notification_sound_vib_screen_on_title">Гукавыя апавяшчэння і вібрацыя пры ўключаным экране</string>
+  <string name="notification_sound_vib_screen_on_never">Ніколі</string>
+  <string name="notification_sound_vib_screen_on_always">Заўсёды (па змаўчанні)</string>
+  <string name="notification_sound_vib_screen_on_nomedia">Калі мультымедыя не прайграваецца</string>
+  <string name="smartbar_double_tap_sleep_title">Выключаць экран пры падвойным націску</string>
+  <string name="smartbar_double_tap_sleep_summary">Падвойны націск на пустую вобласць панэлі навігацыі для сну</string>
   <!-- Less Notification sounds -->
-  <!-- Statusbar Clock options -->
+  <string name="less_notification_sounds_title">Гукі \"разумных\" апавяшчэнняў</string>
+  <string name="less_notification_sounds_summary">Абмежаваць частату гуку апавяшчэнняў кожнай праграмы толькі адным разам за абраны перыяд часу</string>
+  <string name="less_notification_sounds_default">Праграмы па змаўчанні</string>
+  <string name="less_notification_sounds_10s">Кожныя 10 секунд</string>
+  <string name="less_notification_sounds_30s">Кожныя 30 секунд</string>
+  <string name="less_notification_sounds_1m">Кожную хвіліну</string>
+  <string name="less_notification_sounds_2m">Кожныя 2 хвіліны</string>
+  <string name="face_auto_unlock_title">Аўтаматычная разблакоўка сканарам асобы</string>
+  <string name="face_auto_unlock_summary">Прыбраць экран блакавання пасля разблакоўкі сканарам асобы</string>
+  <!-- Status bar clock options -->
+  <string name="status_bar_clock_title">Гадзіннік і дата</string>
+  <string name="status_bar_clock_summary">Налады адлюстравання даты і часу</string>
+  <string name="clock_title_enable">Размяшчэнне</string>
+  <string name="clock_enabled">Уключана</string>
+  <string name="clock_disabled">Адключана</string>
+  <string name="status_bar_clock_style_reset">Скінуць колер</string>
+  <string name="status_bar_show_clock_title">Паказаць час і дату</string>
+  <string name="status_bar_clock_seconds_title">Паказаць секунды</string>
+  <string name="status_bar_am_pm_title">AM/PM</string>
+  <string name="status_bar_am_pm_info">24-гадзінны фармат часу</string>
+  <string name="enable_clock_weekday">Дзень тыдня</string>
+  <string name="enable_clock_weekday_summary">Абрэвіятура дня тыдня перад гадзінамі</string>
+  <string name="right_clock">Гадзіннік справа</string>
+  <string name="left_clock">Гадзіннік злева</string>
+  <string name="dont_show">Не паказваць</string>
+  <string name="clock_date_display">Дата</string>
+  <string name="clock_date_display_summary">Адлюстроўваць карыстацкі фармат даты перад гадзіннікам</string>
+  <string name="clock_date_style">Стыль даты</string>
+  <string name="clock_date_format">Фармат даты</string>
+  <string name="clock_date_string_edittext_title">Выбранае Вамі значэнне павінна адпавядаць фармату даты, напрыклад: ММ/дд/гг</string>
+  <string name="clock_date_string_edittext_summary">Увесці значэнне</string>
+  <string name="am_pm_clock_normal">Стандартны памер шрыфта</string>
+  <string name="am_pm_clock_small">Маленькі памер шрыфта</string>
+  <string name="am_pm_clock_none">Не паказваць</string>
+  <string name="clock_date_display_none">Не паказваць</string>
+  <string name="clock_date_display_small">Маленькі памер шрыфта</string>
+  <string name="clock_date_display_normal">Стандартны памер шрыфта</string>
+  <string name="clock_date_style_normal">Звычайны</string>
+  <string name="clock_date_style_lowercase">Ніжні рэгістр</string>
+  <string name="clock_date_style_uppercase">Верхні рэгістр</string>
+  <string name="clock_date_format_custom">Карыстацкі java фармат</string>
+  <string name="clock_date_right">Справа ад гадзінніка</string>
+  <string name="clock_date_left">Злева ад гадзінніка</string>
+  <string name="clock_date_position">Размяшчэнне даты</string>
+  <!-- Weather - OmniJaws Settings -->
+  <string name="weather_title">Надвор\'е</string>
+  <string name="weather_config_title">Налады службы</string>
+  <string name="header_weather_title">Надвор\'е ў загалоўку панэлі апавяшчэнняў</string>
+  <string name="header_weather_summary">Уключыць адлюстраванне надвор\'я ў загалоўку панэлі апавяшчэнняў</string>
+  <string name="weather_icon_pack_title">Стыль значкоў</string>
+  <string name="weather_icon_pack_note">Прымяненне\u003a можна ўсталяваць новыя пакеты значкоў пакеты з play market па пошуку «Chronus icons»</string>
+  <!-- StatusBar weather settings -->
+  <string name="statusbar_weather_title">Надвор\'е ў радку стану</string>
+  <string name="statusbar_weather_summary">Кіраваць хуткімі наладамі надвор\'я</string>
+  <string name="statusbar_weather_dialog_title">Стыль надвор\'я ў радку стану</string>
+  <string name="status_bar_weather_hidden">Схаваць надвор\'е</string>
+  <string name="status_bar_temperature_image_show_scale">Паказваць тэмпературу з адзінкамі вымярэння і выявай</string>
+  <string name="status_bar_temperature_image_hide_scale">Паказваць тэмпературу з выявай без адзінак вымярэння</string>
+  <string name="status_bar_temperature_show_scale_hide_image">Паказваць тэмпературу з адзінкамі вымярэння</string>
+  <string name="status_bar_temperature_hide_scale_hide_image">Паказваць тэмпературу без адзінкамі вымярэння</string>
+  <string name="status_bar_show_image">Паказаць выявы</string>
+  <!-- Lockscreen Weather -->
+  <string name="lock_screen_weather_category_title">Экран блакавання</string>
+  <string name="lock_screen_show_weather_title">Адлюстраванне надвор\'я</string>
+  <string name="lock_screen_show_weather_summaryOn">Адлюстроўваць надвор\'е на экране блакавання</string>
+  <string name="lock_screen_show_weather_summaryOff">Не адлюстроўваць надвор\'е на экране блакавання</string>
+  <string name="lock_screen_show_location_title">Адлюстраванне месцазнаходжання</string>
+  <string name="lock_screen_show_location_summaryOn">Адлюстроўваць месцазнаходжанне на экране блакавання</string>
+  <string name="lock_screen_show_location_summaryOff">Не адлюстроўваць месцазнаходжанне на экране блакавання</string>
+  <string name="lock_screen_weather_condition_icon_title">Адлюстраванне значка надвор\'я</string>
+  <string name="lock_screen_weather_condition_icon_summaryOn">Адлюстроўваць значок надвор\'я на экране блакавання</string>
+  <string name="lock_screen_weather_condition_icon_summaryOff">Не адлюстроўваць значок надвор\'я на экране блакавання</string>
+  <!-- Battery Styles -->
+  <string name="status_bar_battery_style_title">Стыль батарэі ў радку стану</string>
+  <string name="battery_style_title">Стыль значка батарэі</string>
+  <string name="battery_style_port">Партрэтная</string>
+  <string name="battery_style_land">Альбомная</string>
+  <string name="battery_style_circle">Круг</string>
+  <string name="battery_style_dotted_circle">Пункцірны круг</string>
+  <string name="battery_style_big_circle">Вялікі круг</string>
+  <string name="battery_style_big_dotted_circle">Вялікі пункцірны круг</string>
+  <string name="battery_style_square">Квадрат</string>
+  <string name="battery_style_text">Тэкст</string>
+  <string name="battery_style_hidden">Схавана</string>
+  <string name="show_battery_percent_title">Паказваць працэнт зарада батарэі</string>
+  <string name="battery_percent_none">Не паказваць</string>
+  <string name="battery_percent_outside">Паказаць значок побач</string>
+  <string name="battery_percent_inside">Паказаць значок унутры</string>
+  <!-- Data disabled icon -->
+  <!-- Notification guts kill app button -->
+  <!-- SlimSizer  -->
 </resources>

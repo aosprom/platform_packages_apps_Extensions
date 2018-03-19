@@ -76,11 +76,11 @@
   <string name="app_ops_category">Operações de aplicativos</string>
   <!-- App info dialog -->
   <string name="extensions_dialog_title">Nos ajude a ajudá-lo!</string>
-  <string name="extensions_dialog_message">Se você encontrar um bug em alguma dessas configurações, poste na seção de relatórios de bugs na nossa página do Google+. Você DEVE incluir o seguinte quando for reportar um bug:\n\n1. Um logcat ou last_kmsg\n2. Kernel e mods utilizados\n3. Informações úteis\n\nSe você não reportar algo de forma adequada, NÃO espera que as coisas sejam corrigidas.</string>
+  <string name="extensions_dialog_message">Se você encontrar algum bug nessas configurações, poste na seção de relatórios de bugs na nossa página do Google+. Você DEVE incluir o seguinte quando for reportar um bug:\n\n1. Um logcat ou last_kmsg\n2. Kernel e mods utilizados\n3. Informações úteis\n\nSe você não reportar algo de forma adequada, NÃO espere que as coisas sejam corrigidas.</string>
   <string name="extensions_dialog_toast">LEIA TUDO!</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Seleção de cor</string>
-  <string name="press_color_to_apply">Pressione na cor abaixo para aplicar</string>
+  <string name="press_color_to_apply">Pressione uma cor abaixo para aplicar</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hexadecimal:</string>
@@ -413,6 +413,7 @@
  
 Contexto | Contexto de solicitação</string>
   <string name="fling_pulse_color">Cor do Pulse</string>
+  <string name="fling_pulse_color_summary">Usado também como fallback para cor automática</string>
   <string name="eos_fling_lavalamp_title">Ligar a Lâmpada de Lava</string>
   <string name="eos_fling_lavalamp_summary">Animar o Pulse com uma mistura de cor suave com um estilo de lâmpada Lava</string>
   <string name="pulse_advanced_category">Avançado</string>
@@ -424,6 +425,8 @@ Contexto | Contexto de solicitação</string>
   <string name="pulse_solid_units_opacity">Opacidade das linhas sólidas</string>
   <string name="pulse_solid_dimen_category">Personalização das linhas sólidas</string>
   <string name="pulse_custom_buttons_opacity_title">Opacidade dos botões da Barra Inteligente no Pulse</string>
+  <string name="pulse_auto_color_title">Cor de Pulso automática</string>
+  <string name="pulse_auto_color_summary">Cor de sincronização com artes do álbum. Substitui Lava Lamp e opacidade das linhas.</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Largura da Barra Pulse</string>
   <string name="pulse_custom_div">Espaçamento da Barra Pulse</string>
@@ -548,6 +551,98 @@ Contexto | Contexto de solicitação</string>
   <string name="notification_sound_vib_screen_on_never">Nunca</string>
   <string name="notification_sound_vib_screen_on_always">Sempre (padrão)</string>
   <string name="notification_sound_vib_screen_on_nomedia">Se nenhuma mídia está trocando</string>
+  <string name="smartbar_double_tap_sleep_title">Toque duplo para desligar a tela</string>
+  <string name="smartbar_double_tap_sleep_summary">Toque duplo nas áreas vazias da barra de navegação para dormir</string>
   <!-- Less Notification sounds -->
-  <!-- Statusbar Clock options -->
+  <string name="less_notification_sounds_title">Sons de notificações inteligente</string>
+  <string name="less_notification_sounds_summary">Limitar os sons de notificação de cada aplicação para tocar apenas uma vez por período de tempo definido</string>
+  <string name="less_notification_sounds_default">Aplicativo padrão</string>
+  <string name="less_notification_sounds_10s">A cada 10 segundos</string>
+  <string name="less_notification_sounds_30s">A cada 30 segundos</string>
+  <string name="less_notification_sounds_1m">A Cada Minuto</string>
+  <string name="less_notification_sounds_2m">A cada 2 minutos</string>
+  <string name="face_auto_unlock_title">Desbloqueio automático com rosto</string>
+  <string name="face_auto_unlock_summary">Descartar o bloqueio após o desbloqueio com rosto</string>
+  <!-- Status bar clock options -->
+  <string name="status_bar_clock_title">Relógio e data</string>
+  <string name="status_bar_clock_summary">Configure a aparência do relógio e da data na barra de status</string>
+  <string name="clock_title_enable">Alinhamento</string>
+  <string name="clock_enabled">Ativado</string>
+  <string name="clock_disabled">Desativado</string>
+  <string name="status_bar_clock_style_reset">Redefinir cor</string>
+  <string name="status_bar_show_clock_title">Mostrar o relógio e data</string>
+  <string name="status_bar_clock_seconds_title">Mostrar segundos</string>
+  <string name="status_bar_am_pm_title">Estilo AM/PM</string>
+  <string name="status_bar_am_pm_info">O formato de 24 horas está ativado</string>
+  <string name="enable_clock_weekday">Dia da semana</string>
+  <string name="enable_clock_weekday_summary">Abreviar dia da semana antes do relógio</string>
+  <string name="right_clock">Relógio à direita</string>
+  <string name="left_clock">Relógio à esquerda</string>
+  <string name="dont_show">Não mostrar</string>
+  <string name="clock_date_display">Data</string>
+  <string name="clock_date_display_summary">Exibir data personalizada antes do relógio</string>
+  <string name="clock_date_style">Estilo da data</string>
+  <string name="clock_date_format">Formato da data</string>
+  <string name="clock_date_string_edittext_title">Deve estar no formato de data, por exemplo: MM/DD/AA</string>
+  <string name="clock_date_string_edittext_summary">Insira os caracteres</string>
+  <string name="am_pm_clock_normal">Tamanho normal da fonte</string>
+  <string name="am_pm_clock_small">Fonte pequena</string>
+  <string name="am_pm_clock_none">Nâo mostrar</string>
+  <string name="clock_date_display_none">Nâo mostrar</string>
+  <string name="clock_date_display_small">Fonte pequena</string>
+  <string name="clock_date_display_normal">Tamanho normal da fonte</string>
+  <string name="clock_date_style_normal">Normal</string>
+  <string name="clock_date_style_lowercase">Minúscula</string>
+  <string name="clock_date_style_uppercase">Maiúscula</string>
+  <string name="clock_date_format_custom">Formato personalizado de java</string>
+  <string name="clock_date_right">À direita do relógio</string>
+  <string name="clock_date_left">À esquerda do relógio</string>
+  <string name="clock_date_position">Posição da data</string>
+  <!-- Weather - OmniJaws Settings -->
+  <string name="weather_title">Clima</string>
+  <string name="weather_config_title">Configurar previsão do tempo</string>
+  <string name="header_weather_title">Cabeçalho da previsão do tempo</string>
+  <string name="header_weather_summary">Habilitar painel do tempo no cabeçalho</string>
+  <string name="weather_icon_pack_title">Pacote de ícones do tempo</string>
+  <string name="weather_icon_pack_note">Nota\u003a Você pode instalar novos pacotes de ícones da play store procurando por \"Chronus icons\"</string>
+  <!-- StatusBar weather settings -->
+  <string name="statusbar_weather_title">Clima na barra de status</string>
+  <string name="statusbar_weather_summary">Configurar a partir das configurações rápidas/clima</string>
+  <string name="statusbar_weather_dialog_title">Estilo do clima na barra de status</string>
+  <string name="status_bar_weather_hidden">Ocultar clima</string>
+  <string name="status_bar_temperature_image_show_scale">Exibir temperatura com escala e imagem</string>
+  <string name="status_bar_temperature_image_hide_scale">Exibir temperatura com imagem sem escala</string>
+  <string name="status_bar_temperature_show_scale_hide_image">Exibir temperatura com escala</string>
+  <string name="status_bar_temperature_hide_scale_hide_image">Exibir temperatura sem escala</string>
+  <string name="status_bar_show_image">Exibir imagem</string>
+  <!-- Lockscreen Weather -->
+  <string name="lock_screen_weather_category_title">Tela de bloqueio</string>
+  <string name="lock_screen_show_weather_title">Mostrar clima</string>
+  <string name="lock_screen_show_weather_summaryOn">O tempo é mostrado na tela de bloqueio</string>
+  <string name="lock_screen_show_weather_summaryOff">O tempo não é mostrado na tela de bloqueio</string>
+  <string name="lock_screen_show_location_title">Mostrar localização</string>
+  <string name="lock_screen_show_location_summaryOn">A localização é mostrado na tela de bloqueio</string>
+  <string name="lock_screen_show_location_summaryOff">A localização não é mostrada na tela de bloqueio</string>
+  <string name="lock_screen_weather_condition_icon_title">Pacote de ícones climáticos</string>
+  <string name="lock_screen_weather_condition_icon_summaryOn">Ícone de tempo é mostrado na tela de bloqueio</string>
+  <string name="lock_screen_weather_condition_icon_summaryOff">Ícone de tempo é mostrado na tela de bloqueio</string>
+  <!-- Battery Styles -->
+  <string name="status_bar_battery_style_title">Estilo do ícone de bateria na barra de status</string>
+  <string name="battery_style_title">Estilo do ícone da bateria</string>
+  <string name="battery_style_port">Retrato</string>
+  <string name="battery_style_land">Paisagem</string>
+  <string name="battery_style_circle">Círculo</string>
+  <string name="battery_style_dotted_circle">Círculo pontilhado</string>
+  <string name="battery_style_big_circle">Círculo grande</string>
+  <string name="battery_style_big_dotted_circle">Círculo pontilhado grande</string>
+  <string name="battery_style_square">Quadrado</string>
+  <string name="battery_style_text">Texto</string>
+  <string name="battery_style_hidden">Escondido</string>
+  <string name="show_battery_percent_title">Mostrar a porcentagem da bateria</string>
+  <string name="battery_percent_none">Não mostrar</string>
+  <string name="battery_percent_outside">Mostrar junto ao ícone</string>
+  <string name="battery_percent_inside">Mostrar dentro do ícone</string>
+  <!-- Data disabled icon -->
+  <!-- Notification guts kill app button -->
+  <!-- SlimSizer  -->
 </resources>
